@@ -1,23 +1,12 @@
-# Snikket server images
+# UpperDeck server images
 
-This is the source repository for building [Snikket service](https://snikket.org/service/)
+This is the source repository for building UpperDeck server images. It was forked from [Snikket service](https://snikket.org/service/)
 Docker images.
 
-Snikket is an open-source self-hosted personal messaging service. It aims to
+UpperDeck is an open-source self-hosted personal messaging service. It aims to
 provide an alternative to proprietary and centralized messaging platforms
 while supporting all the expected features and being easy to use.
 
-For more information see the [Snikket website](https://snikket.org/).
-
-## Getting Started with Snikket
-
-For instructions on getting started with Snikket, see the [Snikket installation
-guide](https://snikket.org/service/quickstart/) on our website.
-
-## Building images
-
-This section is for people who want to build their own images of Snikket, e.g.
-for development purposes.
 
 ### Requirements
 
@@ -37,3 +26,6 @@ The easiest way is to use docker-compose. Copy the file `snikket.conf.example` t
 ```console
 docker-compose up -d
 ```
+### Todo
+
+Replace snikket brand with UDC branding.
